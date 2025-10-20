@@ -14,8 +14,8 @@ int bitsCount(int num){
     return count;
 }
 
-void binAdd(int *arr){
-
+void binAdd(int *op1, int *op2, int bitscount){
+    
 }
 
 
@@ -23,7 +23,8 @@ void printarr(int *arr, int bitNum){
     for(int i=0; i<bitNum; i++){
         printf("%d", arr[i]);
     }
-} 
+}
+
 int main(){
     int multiplier = -7;
     int multiplicand = 3;
