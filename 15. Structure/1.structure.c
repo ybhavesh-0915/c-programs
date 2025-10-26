@@ -1,5 +1,6 @@
 #include <stdio.h>
 // member of the structure cannot be static but in c++ it is possible
+// 1st struct don't hav tag name and student is call tagname
 
 struct{ //anonymous structure
     char name; //members
