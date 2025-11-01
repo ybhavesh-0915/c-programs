@@ -26,7 +26,7 @@ void binAdd(int *arr1, int *arr2, int bitcount){
 
 void lsl(int *a, int *q, int bitcount){
     int qMSB = q[0];
-    int aLSF = a[bitcount-1];
+    // int aLSF = a[bitcount-1];
 
     for(int i=0; i<bitcount; i++){
         if(i!=(bitcount-1)){

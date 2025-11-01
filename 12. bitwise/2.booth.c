@@ -48,7 +48,7 @@ void printarr(int *arr, int bitNum){
 }
 
 int main(){
-    int multiplier = -11;
+    int multiplier = -14;
     int multiplicand = -4;
 
     int bigNum = abs(multiplier) > abs(multiplicand)? multiplier:multiplicand;
